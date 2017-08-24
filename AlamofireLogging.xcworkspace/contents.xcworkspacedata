@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:AlamofireLogging.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Samples/AlamofireLoggingSample-iOS/AlamofireLoggingSample-iOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Samples/AlamofireLoggingSample-watchOS/AlamofireLoggingSample-watchOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Samples/AlamofireLoggingSample-tvOS/AlamofireLoggingSample-tvOS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Samples/AlamofireLoggingSample-OSX/AlamofireLoggingSample-OSX.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
