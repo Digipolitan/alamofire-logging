@@ -1,4 +1,4 @@
-osx_image: xcode8.2
+osx_image: xcode8.3
 language: objective-c
 cache:
   - bundler
@@ -10,10 +10,10 @@ branches:
 notifications:
   email: false
 before_install:
-  - gem install bundler
   - brew update
+  - gem install bundler
   - bundle install && brew bundle
-  - bundle exec pod repo update --silent
+  - bundle exec pod repo update
 script:
   - bundle exec fastlane run_tests
 after_success:
