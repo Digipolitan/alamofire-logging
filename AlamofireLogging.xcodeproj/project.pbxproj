@@ -10,23 +10,23 @@
 		1B458A8B377D5424501B8F02 /* Pods_Frameworks_AlamofireLogging_watchOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5278D561EBF2FF6C7EF7BA87 /* Pods_Frameworks_AlamofireLogging_watchOS.framework */; };
 		23039757C3775AA67A751AC8 /* Pods_Frameworks_AlamofireLogging_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C505ABCAD404D9A309442028 /* Pods_Frameworks_AlamofireLogging_tvOS.framework */; };
 		38F5A797BCAB7D4899E170D2 /* Pods_Frameworks_AlamofireLogging_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E89C94A63F334B260154F73 /* Pods_Frameworks_AlamofireLogging_iOS.framework */; };
-		4414319B1F4F05BE00C24D92 /* DataRequest+Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4414319A1F4F05BE00C24D92 /* DataRequest+Logging.swift */; };
-		4414319C1F4F05BE00C24D92 /* DataRequest+Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4414319A1F4F05BE00C24D92 /* DataRequest+Logging.swift */; };
-		4414319D1F4F05BE00C24D92 /* DataRequest+Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4414319A1F4F05BE00C24D92 /* DataRequest+Logging.swift */; };
-		4414319E1F4F05BE00C24D92 /* DataRequest+Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4414319A1F4F05BE00C24D92 /* DataRequest+Logging.swift */; };
-		441431A01F4F072C00C24D92 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4414319F1F4F072C00C24D92 /* LogLevel.swift */; };
-		441431A11F4F072C00C24D92 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4414319F1F4F072C00C24D92 /* LogLevel.swift */; };
-		441431A21F4F072C00C24D92 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4414319F1F4F072C00C24D92 /* LogLevel.swift */; };
-		441431A31F4F072C00C24D92 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4414319F1F4F072C00C24D92 /* LogLevel.swift */; };
 		464DE2EB7B7AD4E146B05C58 /* Pods_Tests_AlamofireLoggingTests_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C2F6DE1473296B7267CD051 /* Pods_Tests_AlamofireLoggingTests_tvOS.framework */; };
 		8C601A14A0A0CF47E95BE69E /* Pods_Frameworks_AlamofireLogging_OSX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61C13EAC73F11B13B369DC54 /* Pods_Frameworks_AlamofireLogging_OSX.framework */; };
 		A3169DBA1DE05E8300BABAFD /* AlamofireLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DB01DE05E8300BABAFD /* AlamofireLogging.framework */; };
 		A3169DF81DE0718900BABAFD /* AlamofireLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169DEF1DE0718900BABAFD /* AlamofireLogging.framework */; };
 		A3169E151DE072C800BABAFD /* AlamofireLogging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3169E0C1DE072C700BABAFD /* AlamofireLogging.framework */; };
-		A3169E761DE083D900BABAFD /* AlamofireLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* AlamofireLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3169E771DE083D900BABAFD /* AlamofireLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* AlamofireLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3169E781DE083D900BABAFD /* AlamofireLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* AlamofireLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3169E791DE083D900BABAFD /* AlamofireLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = A3169E751DE083D900BABAFD /* AlamofireLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3725EAB1FADC861008B70D7 /* DataRequest+Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3725EA81FADC861008B70D7 /* DataRequest+Logging.swift */; };
+		A3725EAC1FADC861008B70D7 /* DataRequest+Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3725EA81FADC861008B70D7 /* DataRequest+Logging.swift */; };
+		A3725EAD1FADC861008B70D7 /* DataRequest+Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3725EA81FADC861008B70D7 /* DataRequest+Logging.swift */; };
+		A3725EAE1FADC861008B70D7 /* DataRequest+Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3725EA81FADC861008B70D7 /* DataRequest+Logging.swift */; };
+		A3725EAF1FADC861008B70D7 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3725EA91FADC861008B70D7 /* LogLevel.swift */; };
+		A3725EB01FADC861008B70D7 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3725EA91FADC861008B70D7 /* LogLevel.swift */; };
+		A3725EB11FADC861008B70D7 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3725EA91FADC861008B70D7 /* LogLevel.swift */; };
+		A3725EB21FADC861008B70D7 /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3725EA91FADC861008B70D7 /* LogLevel.swift */; };
+		A3725EB31FADC861008B70D7 /* AlamofireLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = A3725EAA1FADC861008B70D7 /* AlamofireLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3725EB41FADC861008B70D7 /* AlamofireLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = A3725EAA1FADC861008B70D7 /* AlamofireLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3725EB51FADC861008B70D7 /* AlamofireLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = A3725EAA1FADC861008B70D7 /* AlamofireLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3725EB61FADC861008B70D7 /* AlamofireLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = A3725EAA1FADC861008B70D7 /* AlamofireLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A38EF2CA1DECF97000637484 /* AlamofireLoggingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* AlamofireLoggingTests.swift */; };
 		A38EF2CB1DECF97000637484 /* AlamofireLoggingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* AlamofireLoggingTests.swift */; };
 		A38EF2CC1DECF97000637484 /* AlamofireLoggingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38EF2C71DECF97000637484 /* AlamofireLoggingTests.swift */; };
@@ -65,8 +65,6 @@
 		3578D3909F1F4C9482DBE2DF /* Pods-Tests-AlamofireLoggingTests-OSX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-AlamofireLoggingTests-OSX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-AlamofireLoggingTests-OSX/Pods-Tests-AlamofireLoggingTests-OSX.debug.xcconfig"; sourceTree = "<group>"; };
 		3F07F542BF252DCE7DD724EE /* Pods-Frameworks-AlamofireLogging-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-AlamofireLogging-iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-AlamofireLogging-iOS/Pods-Frameworks-AlamofireLogging-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		3F13ECD3A980B4EA016C3B74 /* Pods_Tests_AlamofireLoggingTests_OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_AlamofireLoggingTests_OSX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4414319A1F4F05BE00C24D92 /* DataRequest+Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataRequest+Logging.swift"; sourceTree = "<group>"; };
-		4414319F1F4F072C00C24D92 /* LogLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogLevel.swift; sourceTree = "<group>"; };
 		468DCEBC393BDCB22FCA54B6 /* Pods_Tests_AlamofireLoggingTests_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tests_AlamofireLoggingTests_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48A60D07B65287DB839DD2DF /* Pods-Tests-AlamofireLoggingTests-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests-AlamofireLoggingTests-iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests-AlamofireLoggingTests-iOS/Pods-Tests-AlamofireLoggingTests-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		5278D561EBF2FF6C7EF7BA87 /* Pods_Frameworks_AlamofireLogging_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Frameworks_AlamofireLogging_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,7 +84,9 @@
 		A3169DF71DE0718900BABAFD /* AlamofireLoggingTests-tvOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AlamofireLoggingTests-tvOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169E0C1DE072C700BABAFD /* AlamofireLogging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlamofireLogging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3169E141DE072C800BABAFD /* AlamofireLoggingTests-OSX.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AlamofireLoggingTests-OSX.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3169E751DE083D900BABAFD /* AlamofireLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlamofireLogging.h; sourceTree = "<group>"; };
+		A3725EA81FADC861008B70D7 /* DataRequest+Logging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataRequest+Logging.swift"; sourceTree = "<group>"; };
+		A3725EA91FADC861008B70D7 /* LogLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogLevel.swift; sourceTree = "<group>"; };
+		A3725EAA1FADC861008B70D7 /* AlamofireLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlamofireLogging.h; sourceTree = "<group>"; };
 		A38EF2C71DECF97000637484 /* AlamofireLoggingTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlamofireLoggingTests.swift; sourceTree = "<group>"; };
 		A5E987E2CB647419FFB2032D /* Pods-Frameworks-AlamofireLogging-OSX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-AlamofireLogging-OSX.release.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-AlamofireLogging-OSX/Pods-Frameworks-AlamofireLogging-OSX.release.xcconfig"; sourceTree = "<group>"; };
 		BCB503C256F952BD34CC3D79 /* Pods-Frameworks-AlamofireLogging-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Frameworks-AlamofireLogging-watchOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Frameworks-AlamofireLogging-watchOS/Pods-Frameworks-AlamofireLogging-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
@@ -207,10 +207,8 @@
 		A3169DCA1DE0629100BABAFD /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				4414319A1F4F05BE00C24D92 /* DataRequest+Logging.swift */,
-				A3169E751DE083D900BABAFD /* AlamofireLogging.h */,
+				A3725EA71FADC861008B70D7 /* AlamofireLogging */,
 				A3169DCC1DE0629100BABAFD /* Info.plist */,
-				4414319F1F4F072C00C24D92 /* LogLevel.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -222,6 +220,16 @@
 				A3169DD11DE062A000BABAFD /* Info.plist */,
 			);
 			path = Tests;
+			sourceTree = "<group>";
+		};
+		A3725EA71FADC861008B70D7 /* AlamofireLogging */ = {
+			isa = PBXGroup;
+			children = (
+				A3725EA81FADC861008B70D7 /* DataRequest+Logging.swift */,
+				A3725EA91FADC861008B70D7 /* LogLevel.swift */,
+				A3725EAA1FADC861008B70D7 /* AlamofireLogging.h */,
+			);
+			path = AlamofireLogging;
 			sourceTree = "<group>";
 		};
 		A38EF2C61DECF97000637484 /* AlamofireLoggingTests */ = {
@@ -253,7 +261,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E781DE083D900BABAFD /* AlamofireLogging.h in Headers */,
+				A3725EB51FADC861008B70D7 /* AlamofireLogging.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,7 +269,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E791DE083D900BABAFD /* AlamofireLogging.h in Headers */,
+				A3725EB61FADC861008B70D7 /* AlamofireLogging.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +277,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E761DE083D900BABAFD /* AlamofireLogging.h in Headers */,
+				A3725EB31FADC861008B70D7 /* AlamofireLogging.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +285,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3169E771DE083D900BABAFD /* AlamofireLogging.h in Headers */,
+				A3725EB41FADC861008B70D7 /* AlamofireLogging.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -906,8 +914,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4414319B1F4F05BE00C24D92 /* DataRequest+Logging.swift in Sources */,
-				441431A01F4F072C00C24D92 /* LogLevel.swift in Sources */,
+				A3725EAB1FADC861008B70D7 /* DataRequest+Logging.swift in Sources */,
+				A3725EAF1FADC861008B70D7 /* LogLevel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -923,8 +931,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4414319C1F4F05BE00C24D92 /* DataRequest+Logging.swift in Sources */,
-				441431A11F4F072C00C24D92 /* LogLevel.swift in Sources */,
+				A3725EAC1FADC861008B70D7 /* DataRequest+Logging.swift in Sources */,
+				A3725EB01FADC861008B70D7 /* LogLevel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -932,8 +940,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4414319D1F4F05BE00C24D92 /* DataRequest+Logging.swift in Sources */,
-				441431A21F4F072C00C24D92 /* LogLevel.swift in Sources */,
+				A3725EAD1FADC861008B70D7 /* DataRequest+Logging.swift in Sources */,
+				A3725EB11FADC861008B70D7 /* LogLevel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -949,8 +957,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4414319E1F4F05BE00C24D92 /* DataRequest+Logging.swift in Sources */,
-				441431A31F4F072C00C24D92 /* LogLevel.swift in Sources */,
+				A3725EAE1FADC861008B70D7 /* DataRequest+Logging.swift in Sources */,
+				A3725EB21FADC861008B70D7 /* LogLevel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1139,6 +1147,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 48A60D07B65287DB839DD2DF /* Pods-Tests-AlamofireLoggingTests-iOS.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1152,6 +1161,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 03022444139FE7FDB4C2068F /* Pods-Tests-AlamofireLoggingTests-iOS.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1257,6 +1267,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7F2317062E3810C59D560D42 /* Pods-Tests-AlamofireLoggingTests-tvOS.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1272,6 +1283,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8BF06AFE75A3BEA915D7C5DA /* Pods-Tests-AlamofireLoggingTests-tvOS.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
 				INFOPLIST_FILE = Tests/Info.plist;
@@ -1334,6 +1346,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3578D3909F1F4C9482DBE2DF /* Pods-Tests-AlamofireLoggingTests-OSX.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
@@ -1350,6 +1363,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D8EA6C30A4AFD555E9C142D4 /* Pods-Tests-AlamofireLoggingTests-OSX.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 582762VK3P;
