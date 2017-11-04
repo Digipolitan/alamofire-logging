@@ -16,10 +16,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         SessionManager.default.request("http://date.jsontest.com").log(level: .verbose).responseJSON { (response) in
             switch response.result {
-                case .success(let value):
-                    print("Alamofire \(value)")
-                case .failure(let error):
-                    print("\(error)")
+            case .success(let value):
+                print("Alamofire \(value)")
+            case .failure(let error):
+                print("\(error)")
             }
         }
     }

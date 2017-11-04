@@ -1,12 +1,27 @@
+// swift-tools-version:4.0
+
 import PackageDescription
 
 let package = Package(
-  name: "AlamofireLogging",
-  dependencies: [
-    .Package(url: "https://github.com/Alamofire/Alamofire.git", versions: Version(4, 0, 0)..<Version(5, 0, 0))
-  ],
-  exclude: [
-    "Tests",
-    "Samples"
-  ]
+    name: "AlamofireLogging",
+    products: [
+        .library(name: "AlamofireLogging", targets: ["AlamofireLogging"])
+    ],
+    dependencies: [
+        .package(url: "https://github.com/Alamofire/Alamofire.git", from: "4.0.0")
+    ],
+    targets: [
+        .target(
+            name: "AlamofireLogging",
+            dependencies: [
+                "Alamofire"
+            ]
+        ),
+        .testTarget(
+            name: "AlamofireLoggingTests",
+            dependencies: [
+                "AlamofireLogging"
+            ]
+        )
+    ]
 )

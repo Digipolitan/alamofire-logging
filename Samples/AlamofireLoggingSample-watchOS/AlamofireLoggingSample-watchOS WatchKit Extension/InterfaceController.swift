@@ -8,14 +8,21 @@
 
 import WatchKit
 import Foundation
+import Alamofire
 import AlamofireLogging
 
 class InterfaceController: WKInterfaceController {
 
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
-        let t = TemplateClass()
-        print("watchOS \(t)")
+        SessionManager.default.request("http://date.jsontest.com").log(level: .verbose).responseJSON { (response) in
+            switch response.result {
+            case .success(let value):
+                print("Alamofire \(value)")
+            case .failure(let error):
+                print("\(error)")
+            }
+        }
     }
 
     override func willActivate() {
