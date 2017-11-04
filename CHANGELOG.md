@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.0.2](https://github.com/Digipolitan/alamofire-logging/releases/tag/v1.0.2)
+
+update to swift 4 & spm4
+update travis
+update readme
+
+---
+
 ## [1.0.1](https://github.com/Digipolitan/alamofire-logging/releases/tag/v1.0.1)
 
 update project xcode9 support
