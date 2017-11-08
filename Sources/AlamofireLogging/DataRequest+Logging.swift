@@ -71,7 +71,7 @@ public extension DataRequest {
                 }
                 if let data = $0.data,
                     let body = String(data: data, encoding: .utf8) {
-                    if body.characters.count > 0 {
+                    if body.count > 0 {
                         message += "\n\(body)"
                     }
                 }
