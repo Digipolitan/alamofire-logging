@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = "AlamofireLogging"
-s.version = "1.0.2"
+s.version = "1.0.3"
 s.summary = "Logging support for Alamofire"
 s.homepage = "https://github.com/Digipolitan/alamofire-logging"
 s.authors = "Digipolitan"

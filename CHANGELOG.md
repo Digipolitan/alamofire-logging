@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 
 ---
 
+## [1.0.3](https://github.com/Digipolitan/alamofire-logging/releases/tag/v1.0.3)
+
+remove xcode 9.1 warning
+
+---
+
 ## [1.0.2](https://github.com/Digipolitan/alamofire-logging/releases/tag/v1.0.2)
 
 update to swift 4 & spm4
