@@ -1,4 +1,4 @@
-osx_image: xcode9
+osx_image: xcode10
 language: objective-c
 cache:
   - bundler
@@ -14,5 +14,5 @@ before_install:
   - brew update
   - bundle install && brew bundle
 install: bundle exec pod install --repo-update --silent
-script: bundle exec fastlane run_tests
+script: bundle exec fastlane tests
 after_success: bundle exec fastlane ci_framework_deploy
