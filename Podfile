@@ -1,10 +1,11 @@
 workspace 'AlamofireLogging.xcworkspace'
 
+use_frameworks!
+
+pod 'Alamofire', '~> 4.8'
+
 ## Frameworks targets
 abstract_target 'Frameworks' do
-	use_frameworks!
-
-	pod 'Alamofire', '~> 4.0'
 
 	target 'AlamofireLogging-iOS' do
 		platform :ios, '8.0'
@@ -25,9 +26,6 @@ end
 
 ## Tests targets
 abstract_target 'Tests' do
-	use_frameworks!
-
-	pod 'Alamofire', '~> 4.0'
 
 	target 'AlamofireLoggingTests-iOS' do
 		platform :ios, '8.0'
@@ -44,9 +42,6 @@ end
 
 ## Samples targets
 abstract_target 'Samples' do
-	use_frameworks!
-
-	pod 'Alamofire', '~> 4.0'
 
 	target 'AlamofireLoggingSample-iOS' do
 		project 'Samples/AlamofireLoggingSample-iOS/AlamofireLoggingSample-iOS'
