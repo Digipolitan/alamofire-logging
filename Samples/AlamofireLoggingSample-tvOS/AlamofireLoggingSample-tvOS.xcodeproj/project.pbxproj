@@ -129,7 +129,6 @@
 				A30D648A1E0D7B2A00A3CE45 /* Resources */,
 				A30D64A11E0D7BA200A3CE45 /* Embed Frameworks */,
 				6F91670C5C8679B959E65CFB /* [CP] Embed Pods Frameworks */,
-				7A423DABB450FAAD99D572FF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,7 +194,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-AlamofireLoggingSample-tvOS/Pods-Samples-AlamofireLoggingSample-tvOS-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Samples-AlamofireLoggingSample-tvOS/Pods-Samples-AlamofireLoggingSample-tvOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire-tvOS/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -204,22 +203,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-AlamofireLoggingSample-tvOS/Pods-Samples-AlamofireLoggingSample-tvOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7A423DABB450FAAD99D572FF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-AlamofireLoggingSample-tvOS/Pods-Samples-AlamofireLoggingSample-tvOS-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Samples-AlamofireLoggingSample-tvOS/Pods-Samples-AlamofireLoggingSample-tvOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C9C3C7D7C59B1AB10EA77253 /* [CP] Check Pods Manifest.lock */ = {

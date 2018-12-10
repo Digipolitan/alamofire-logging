@@ -249,7 +249,6 @@
 				A30D64511E0D759D00A3CE45 /* Embed Watch Content */,
 				A30D645C1E0D76AC00A3CE45 /* Embed Frameworks */,
 				140E695A0845EF0F82FE4B2D /* [CP] Embed Pods Frameworks */,
-				2D38DBC2F858A46682ACA41D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -288,7 +287,6 @@
 				A30D64391E0D759D00A3CE45 /* Frameworks */,
 				A30D643A1E0D759D00A3CE45 /* Resources */,
 				D00B153FF6EA33827EDD269E /* [CP] Embed Pods Frameworks */,
-				9970C785E4B59507C7C47023 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -385,7 +383,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-watchOS-AlamofireLoggingSample-watchOS/Pods-Samples-watchOS-AlamofireLoggingSample-watchOS-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Samples-watchOS-AlamofireLoggingSample-watchOS/Pods-Samples-watchOS-AlamofireLoggingSample-watchOS-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire-iOS/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -394,37 +392,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-watchOS-AlamofireLoggingSample-watchOS/Pods-Samples-watchOS-AlamofireLoggingSample-watchOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2D38DBC2F858A46682ACA41D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-watchOS-AlamofireLoggingSample-watchOS/Pods-Samples-watchOS-AlamofireLoggingSample-watchOS-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9970C785E4B59507C7C47023 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-watchOS-AlamofireLoggingSample-watchOS WatchKit Extension/Pods-Samples-watchOS-AlamofireLoggingSample-watchOS WatchKit Extension-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Samples-watchOS-AlamofireLoggingSample-watchOS/Pods-Samples-watchOS-AlamofireLoggingSample-watchOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D00B153FF6EA33827EDD269E /* [CP] Embed Pods Frameworks */ = {
@@ -433,7 +401,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-watchOS-AlamofireLoggingSample-watchOS WatchKit Extension/Pods-Samples-watchOS-AlamofireLoggingSample-watchOS WatchKit Extension-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Samples-watchOS-AlamofireLoggingSample-watchOS WatchKit Extension/Pods-Samples-watchOS-AlamofireLoggingSample-watchOS WatchKit Extension-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire-watchOS/Alamofire.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -442,7 +410,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-Samples-watchOS-AlamofireLoggingSample-watchOS WatchKit Extension/Pods-Samples-watchOS-AlamofireLoggingSample-watchOS WatchKit Extension-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Samples-watchOS-AlamofireLoggingSample-watchOS WatchKit Extension/Pods-Samples-watchOS-AlamofireLoggingSample-watchOS WatchKit Extension-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E2538F3EA116A9FD50336DEF /* [CP] Check Pods Manifest.lock */ = {
